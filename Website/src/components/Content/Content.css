@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arbutus&family=Bangers&family=Cal+Sans&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Eater&family=Fontdiner+Swanky&family=Nosifer&family=Noto+Sans+Glagolitic&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Press+Start+2P&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Doodle+Shadow&display=swap');
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 103vh;
+    margin: 0 auto;
+    padding: 0 60px;
+    width: 85%;
+}
+
+.content-text{
+    margin: 40px;
+    line-height: 27px;
+    text-align: right;
+    font-family: "DM Sans", sans-serif;
+}
+
+.content-text h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.content-text p{
+    font-size: 18px;
+}
+
+.content-img img{
+    border-radius: 30px;
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Cal+Sans&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Eater&family=Fontdiner+Swanky&family=Nosifer&family=Noto+Sans+Glagolitic&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Doodle+Shadow&display=swap');
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.gym-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.nav-menu1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: block;
+    margin: 65px 0;
+}
+
+.nav-menu1 img{
+    margin-right: 20px;
+}
+
+
+.nav-menu1 a{
+    font-size: 24px;
+    text-decoration: none;
+    font-family: "Cal Sans", sans-serif;
+    letter-spacing: 0.5px;
+    display: block;
+    margin: 10px;
+    color: white;
+    padding-top: 25px;
+    transition: 0.3s;
+}
+
+.nav-menu1 a:hover{
+    color:#C79228;
+    transform: scale(1.1);
+}
+
+.social-icons1 a{
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.social-icons1 a:hover{
+    transform: scale(1.2);
+}
+
+.spartan{
+    height: 165px;
+    width: 200px;
+}
+
+.nav-menu1 h1{
+    color: #C79228;
+    font-family: "Nosifer", sans-serif;
+    font-size: 40px;
+}
+
+.social-icons1{
+    position: absolute;
+    bottom: 100px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-right: 10px;
+}
+
+.social-icons1 span{
+    margin-left: 16px;
+    color: white;
+}
+

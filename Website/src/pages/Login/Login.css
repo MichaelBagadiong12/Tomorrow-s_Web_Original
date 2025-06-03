@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arbutus&family=Bangers&family=Cal+Sans&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Eater&family=Fontdiner+Swanky&family=Nosifer&family=Noto+Sans+Glagolitic&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Press+Start+2P&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Doodle+Shadow&display=swap');
+
+
+
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vh;
+    flex-direction: column;
+}
+
+.login-page{
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.logo-login img{
+    height: 95px;
+    width: 120px;
+    animation: pulse 2.2s infinite ease-in-out;
+    margin-bottom: 5px;
+}
+
+.logo-name h1{
+    font-size: 22px;
+    font-family: "Cal Sans", sans-serif;
+    letter-spacing: 1px;
+}
+
+.logo-name p{
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+}
+
+form input{
+    width: 320px;
+    height: 50px;
+    padding: 13px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1.3px solid #BCB9B9;
+}
+
+.forgot-password{
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 13px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+button {
+    width: 320px;
+    border-radius: 40px;
+    padding: 17px;
+    background-color: #C79228;
+    color: white;
+    font-size: 17px;
+    font-family: "Cal Sans", sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+}
+
+.create-account{
+    margin: 20px 0;
+    font-family: "DM Sans", sans-serif;
+    font-size: 13px;
+}
+
+/*create account is mixed with the signup page Already have account?*/
+.create-account a{
+    margin-left: 3px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.create-account a{
+    font-weight: 600;
+}
+
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.10);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.back-button{
+    display: flex;
+    align-items: center;
+    padding: 25px 25px; 
+}
+
+.back-button span{
+    margin-left: 6px;
+    font-size: 18px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+form .login-button{
+    margin-top: 5px;
+}

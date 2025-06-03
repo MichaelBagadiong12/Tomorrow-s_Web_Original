@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arbutus&family=Bangers&family=Bungee&family=Cal+Sans&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Eater&family=Fontdiner+Swanky&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nosifer&family=Noto+Sans+Glagolitic&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Press+Start+2P&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Doodle+Shadow&display=swap');
+
+.contact-container {
+    max-width: 700px;
+    width: 100%;
+    border: 1px solid #C79228;
+    padding: 30px 35px;
+    margin: 50px auto;
+}
+
+.contact-container h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: "Cal Sans", sans-serif;
+    color: #C79228;
+}
+
+.contact-container h2{
+    font-size: 17px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+}
+
+.contact-container a{
+    text-decoration: underline;
+    text-decoration-color: #C79228;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-input-row {
+    display: flex;
+    gap: 10px;
+}
+
+/*Editing font color and sizes inside the form box */
+input[type="text"], input[type="email"], input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    border: 1px solid #C79228;
+    box-sizing: border-box;
+    color: #333;
+    border-radius: 10px;
+}
+
+.contact-form button{
+    margin-top: 20px;
+    transition: 0.4s ease;
+}
+
+.contact-form button:hover{
+    transform: scale(1.02);
+}
+
+.response-message{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.success {
+    color: #155724;
+    background-color: #cbe4d1;
+    border: 1px solid #c3e6cb;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+}
+
+.error {
+    color: red;
+    background-color: rgb(241, 187, 187);
+    border: 1px solid rgb(245, 91, 91);
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+}

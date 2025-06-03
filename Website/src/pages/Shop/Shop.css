@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arbutus&family=Bangers&family=Bungee&family=Cal+Sans&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Eater&family=Fontdiner+Swanky&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nosifer&family=Noto+Sans+Glagolitic&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Press+Start+2P&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Doodle+Shadow&display=swap');
+
+.Shop-title {
+    justify-content: center;
+    text-align: center;
+    border-top: 1px solid #edecec;
+    padding-top: 30px;
+    border-bottom: 1px solid #edecec;
+}
+
+.Shop-title h1{
+    font-family: "Cal Sans", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.Shop-title p{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.shop-page-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    gap: 20px;
+    padding: 43px 20px;
+    margin: 0 60px;
+}
+
+.card-product{
+    border-radius: 11px;
+    background-color: white;
+    box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.3);
+    padding: 16px;
+    text-align: left;
+    transition: 0.5s ease;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;;
+    height: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-product h1{
+    min-height: 48px;
+}
+
+.image-product{
+    width: 100%;
+    height: 290px;
+    object-fit: fill;
+}
+
+.name-product{
+    font-size: 18px;
+    margin: 15px 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #383838;
+    letter-spacing: 0.1px;
+}
+
+.size-product{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #383838;
+    letter-spacing: 0.1px;
+    margin-bottom: 10px;
+    color: #C79228;
+    font-size: 17px;
+}
+
+.price-product{
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(41, 41, 41);
+    margin-bottom: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+.add-to-cart{
+    padding: 10px 14px;
+    border-radius: 5px;
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    margin: 0 auto;
+    margin-top: auto;
+
+}
+
+.card-product button{
+    transition: 0.4s ease;
+}
+
+.card-product button:hover{
+    transform: scale(1.02);
+}
+
+
+
+
+

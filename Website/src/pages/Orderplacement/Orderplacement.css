@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arbutus&family=Bangers&family=Bungee&family=Cal+Sans&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Eater&family=Fontdiner+Swanky&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nosifer&family=Noto+Sans+Glagolitic&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Press+Start+2P&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Doodle+Shadow&display=swap');
+
+
+.logo-payment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Cal Sans", sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    color: #C79228;
+}
+
+.logo-payment img{
+    width: 115px;
+    height: 90px;
+}
+
+.payment-container{
+    max-width: 1200px;
+    margin: 0 50px;
+    padding: 43px 20px;
+}
+
+.payment-container h1{
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-family: "Cal Sans", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.payment-form-content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 45px;
+    align-items: flex-start; /*adapts the size*/
+}
+
+.payment-form {
+    background-color: white;
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    max-width: 750px;
+    width: 100%;
+}
+
+.payment-form h2{
+    margin-bottom: 8px;
+    margin-top: 20px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+}
+
+.payment-form input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.card-details{
+    display: flex;
+    gap: 10px;
+}
+
+.payment-card-tab{
+    margin-top: 15px;
+}
+
+.payment-card-header{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    justify-content: space-between;
+    position: relative;
+    min-height: 65px;
+}
+
+.payment-label input[type="radio"] {
+    display: none;
+}
+
+.radio-circle {
+    width: 25px;
+    height: 25px;
+    border: 2px solid #888;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 5px;
+}
+
+.payment-label input[type="radio"]:checked + .radio-circle {
+    border-color: #C79228;
+}
+
+.payment-label input[type="radio"]:checked + .radio-circle::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 14px;
+    height: 14px;
+    background-color: #d39e24;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-image{
+    display: flex;
+}
+
+.payment-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.payment-label h4{
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+}
+
+.card-image img {
+    height: 24px;
+    margin-left: 8px;
+}
+
+.payment-card-header:has(input[type="radio"]:checked) {
+    border-color: #ebca8d;
+    box-shadow: 0 0 5px 1px #C79228;
+}
+
+.payment-form button {
+    width: 100%;
+    background-color: #C79228;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+/*right side*/
+.order-summary-container{
+    flex: 1;
+    position: sticky;
+    top: 20px; /* adjust based on how far from top you want it */
+}
+
+.order-summary {
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    font-family: "DM Sans", sans-serif;
+}
+
+.order-summary h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.summary-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.summary-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.summary-item p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.order-summary h3 {
+    font-size: 22px;
+    margin-top: 20px;
+}
