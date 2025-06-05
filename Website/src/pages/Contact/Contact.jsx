@@ -14,7 +14,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-        const res = await fetch('http://localhost:5000/api/contact', {   //fetching the server
+        const res = await fetch('https://tomorrow-s-web-original.onrender.com', {   //fetching the server
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
