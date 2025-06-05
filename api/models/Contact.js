@@ -8,4 +8,4 @@ const contactSchema = new mongoose.Schema({
 }, { timestamps: true });
 
 const Contact = mongoose.model('Contact', contactSchema);
-export default Contact; // ✅ This fixes the import issue
+export default Contact; 

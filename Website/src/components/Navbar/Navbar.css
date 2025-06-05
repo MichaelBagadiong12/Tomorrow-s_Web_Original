@@ -79,13 +79,3 @@
 .search-icon{
     position: relative;
 }
-
-.search-icon .count-dot{
-    position: absolute;
-    min-width: 9px;
-    min-height: 9px;
-    background-color: red;
-    border-radius: 6px;
-    top: -7px;
-    right: -9px;
-}

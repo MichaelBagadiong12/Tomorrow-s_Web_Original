@@ -1,6 +1,8 @@
 import React from 'react'
 import './Header.css'
 import { assets } from '../../assets/asset'
+import { Link } from 'react-router-dom';
+
 
 const Header = () => {
   return (
@@ -12,7 +14,7 @@ const Header = () => {
         <div className="head-content">
             <h1>RESULTS HAPPEN OVER TIME, NOT OVERNIGHT.</h1>
             <p>Work hard, Stay consistent, Get Stronger with us.</p>       
-            <button>SHOP NOW!</button>     
+            <Link to="/shop"><button>SHOP NOW!</button></Link>  
         </div>
     </div>
 
